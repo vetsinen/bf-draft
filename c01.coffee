@@ -1,0 +1,1 @@
+seats = _.filter @segment.seatSelection?.seats, (seat) => seat.value isnt seatCode
