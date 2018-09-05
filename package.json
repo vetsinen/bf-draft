@@ -9,6 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "pug-cli": "^1.0.0-alpha6"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-pug": "^1.0.0"
   }
 }

@@ -1,0 +1,142 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        title Title
+        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css')
+        link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.3.1/css/all.css')
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js')
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js')
+        style.
+            :root {
+                --main-bg-color:#eeeeee;
+            }
+            @font-face {
+                font-family: Proxima Nova; /* Имя шрифта */
+                src: url('proximanova.ttf'); /* Путь к файлу со шрифтом */
+            }
+            body {
+                box-sizing: border-box;
+                font-family: 'Proxima Nova', sans-serif;
+            }
+            table {
+                /*border-collapse: collapse;*/
+                /*border-collapse: separate;*/
+                /*border-spacing: 10px;*/
+            }
+            td {
+                border-left: 1px solid var(--main-bg-color);
+                border-right: 1px solid var(--main-bg-color);
+                text-align: center;
+                vertical-align: top;
+            }
+            table tr:first-child td {
+                border-top: 1px solid var(--main-bg-color);
+            }
+            table tr:last-child td {
+                border-bottom: 1px solid var(--main-bg-color);
+            }
+            table tr td:first-child{
+                border: none;
+                background: none;
+                text-align: left;
+            }
+            .segment-direction {
+                background-color: var(--main-bg-color);
+                font-weight: 700;
+                margin: 5px;
+            }
+            .flightid {
+                color: blue;
+            }
+            .brand {
+                font-family: sans-serif;
+                font-weight: 900;
+                /*line-height: 23px;*/
+                font-size: 15px;
+            }
+            hr {
+                /*display: block;*/
+                /*height: 1px;*/
+                /*background-color: var(--main-bg-color);*/
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 90%;
+            }
+    body
+        .container
+            div(style='width: 438px;')
+                br
+                table(width='100%')
+                    tbody
+                        tr
+                            td(width='234px')
+                                span
+                            td(width='202px')
+                                .segment-direction GIG→FRA
+                        tr
+                            td
+                            td
+                                img(src='logo.png', alt='')
+                        tr
+                            td
+                            td
+                                | Eithhad Airways
+                                br
+                                span.flightid EY3539
+                                hr
+                        tr
+                            td
+                            td
+                                span.brand Economy Saver
+                                hr
+                        tr
+                            td
+                                icon ⁂
+                                |  Carry on baggage
+                                br
+                            td 1x7kg
+                        tr
+                            td
+                                icon ⚖
+                                |  Checked baggage
+                                br
+                            td 1x7kg
+                        tr
+                            td
+                                icon ⚝
+                                |  Seat Assignment
+                                br
+                            td $
+                        tr
+                            td
+                                icon ⚖
+                                |  Refundable
+                                br
+                            td ✓
+                        tr
+                            td
+                                icon ☎
+                                |  Changes
+                                br
+                            td ✓
+                        tr
+                            td
+                                icon ⁂
+                                |  WiFi
+                                br
+                            td $
+                        tr
+                            td
+                                icon ⚝
+                                |  Meals
+                                br
+                            td
+                                | ✓
+                                hr
+                        tr
+                            td
+                            td
+                                a(href='#') Fare rules
+                                br
+            br
