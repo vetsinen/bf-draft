@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>html</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+    <style>
+      :root {
+      --main-bg-color:#eeeeee;
+      }
+      body {
+      box-sizing: border-box;
+      font-family: 'Proxima Nova', sans-serif;
+      }
+      .brandfamilymatrix td {
+      border-left: 1px solid var(--main-bg-color);
+      border-right: 1px solid var(--main-bg-color);
+      text-align: center;
+      vertical-align: top;
+      }
+      .brandfamilymatrix table tr:first-child td {
+      border-top: 1px solid var(--main-bg-color);
+      }
+      .brandfamilymatrix table tr:last-child td {
+      border-bottom: 1px solid var(--main-bg-color);
+      }
+      .brandfamilymatrix table tr td:first-child{
+      padding-bottom: 15px;
+      border: none;
+      background: none;
+      text-align: left;
+      }
+      .brandfamilymatrix .segment-direction {
+      background-color: var(--main-bg-color);
+      font-weight: 700;
+      margin: 5px;
+      }
+      .brandfamilymatrix .flightid {
+      color: blue;
+      }
+      .brandfamilymatrix .brand {
+      font-family: sans-serif;
+      font-weight: 900;
+      font-size: 15px;
+      }
+      .brandfamilymatrix hr {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 90%;
+      }
+      .brandfamilymatrix a {
+      text-decoration: underline
+      }
+    </style>
+  </head>
+  <body></body>
+  <div class="container">
+    <div class="brandfamilymatrix">
+      <table>
+        <tbody>
+          <tr>
+            <td width="234px"><span></span></td>
+            <td width="202px">
+              <div class="segment-direction">AUS→FRA</div>
+            </td>
+            <td width="202px">
+              <div class="segment-direction">FRA→UEM</div>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><img src="logo.png" alt=""></td>
+            <td><img src="logo.png" alt=""></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Eithhad Airways<br><span class="flightid">EY3539</span>
+              <hr>
+            </td>
+            <td>Eithhad Airways<br><span class="flightid">EY3539</span>
+              <hr>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span class="brand">Economy Saver</span>
+              <hr>
+            </td>
+            <td><span class="brand">Economy Saver</span>
+              <hr>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <icon>⁂</icon> Carry on baggage
+            </td>
+            <td>1x4kg</td>
+            <td>2x8kg</td>
+          </tr>
+          <tr>
+            <td>
+              <icon>⚖</icon> Checked baggage
+            </td>
+            <td>2x2kg</td>
+            <td>2x5kg</td>
+          </tr>
+          <tr>
+            <td>
+              <icon>⚝</icon> Seat Assignment
+            </td>
+            <td>$</td>
+            <td>$</td>
+          </tr>
+          <tr>
+            <td>
+              <icon>⚖</icon> Refundable
+            </td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>
+              <icon>☎</icon> Changes
+            </td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>
+              <icon>⁂</icon> WiFi
+            </td>
+            <td>$</td>
+            <td>$</td>
+          </tr>
+          <tr>
+            <td>
+              <icon>⚝</icon> Meals
+            </td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <hr><a href="#">Fare rules</a><br>
+            </td>
+            <td>
+              <hr><a href="#">Fare rules</a><br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</html>

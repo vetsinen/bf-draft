@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>html</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
@@ -11,57 +11,45 @@
         :root {
             --main-bg-color:#eeeeee;
         }
-        @font-face {
-            font-family: Proxima Nova; /* Имя шрифта */
-            src: url('proximanova.ttf'); /* Путь к файлу со шрифтом */
-        }
         body {
             box-sizing: border-box;
             font-family: 'Proxima Nova', sans-serif;
         }
+        .brandfamilymatrix td {
 
-        table {
-            /*border-collapse: collapse;*/
-            /*border-collapse: separate;*/
-            /*border-spacing: 10px;*/
-        }
-        td {
             border-left: 1px solid var(--main-bg-color);
             border-right: 1px solid var(--main-bg-color);
             text-align: center;
             vertical-align: top;
         }
 
-        table tr:first-child td {
+        .brandfamilymatrix table tr:first-child td {
             border-top: 1px solid var(--main-bg-color);
         }
-        table tr:last-child td {
+        .brandfamilymatrix table tr:last-child td {
             border-bottom: 1px solid var(--main-bg-color);
         }
-        table tr td:first-child{
+        .brandfamilymatrix table tr td:first-child{
+            padding-bottom: 10px;
             border: none;
             background: none;
             text-align: left;
         }
-        .segment-direction {
+        .brandfamilymatrix .segment-direction {
             background-color: var(--main-bg-color);
             font-weight: 700;
             margin: 5px;
         }
 
-        .flightid {
+        .brandfamilymatrix .flightid {
             color: blue;
         }
-        .brand {
+        .brandfamilymatrix .brand {
             font-family: sans-serif;
             font-weight: 900;
-            /*line-height: 23px;*/
             font-size: 15px;
         }
-        hr {
-            /*display: block;*/
-            /*height: 1px;*/
-            /*background-color: var(--main-bg-color);*/
+        .brandfamilymatrix hr {
             margin-top: 10px;
             margin-bottom: 10px;
             width: 90%;
@@ -71,9 +59,9 @@
 </head>
 <body>
 <div class="container">
-    <div style="width: 438px;">
+    <div class="brandfamilymatrix">
         <br>
-        <table width="100%">
+        <table>
             <tr>
                 <td width="234px"><span></span></td>
                 <td width="202px"><div class="segment-direction">GIG→FRA</div></td>
@@ -91,31 +79,31 @@
                 <td><span class="brand">Economy Saver</span><hr></td>
             </tr>
             <tr>
-                <td><icon>⁂</icon> Carry on baggage<br/>&nbsp;</td>
+                <td><icon>⁂</icon> Carry on baggage</td>
                 <td>1x7kg</td>
             </tr>
             <tr>
-                <td><icon>⚖</icon> Checked baggage<br/>&nbsp;</td>
+                <td><icon>⚖</icon> Checked baggage</td>
                 <td>1x7kg</td>
             </tr>
             <tr>
-                <td><icon>⚝</icon> Seat Assignment<br/>&nbsp;</td>
+                <td><icon>⚝</icon> Seat Assignment</td>
                 <td>$</td>
             </tr>
             <tr>
-                <td><icon>⚖</icon> Refundable<br/>&nbsp;</td>
+                <td><icon>⚖</icon> Refundable</td>
                 <td>✓</td>
             </tr>
             <tr>
-                <td><icon>☎</icon> Changes<br/>&nbsp;</td>
+                <td><icon>☎</icon> Changes</td>
                 <td>✓</td>
             </tr>
             <tr>
-                <td><icon>⁂</icon> WiFi<br/>&nbsp;</td>
+                <td><icon>⁂</icon> WiFi</td>
                 <td>$</td>
             </tr>
             <tr>
-                <td><icon>⚝</icon> Meals<br/>&nbsp;</td>
+                <td><icon>⚝</icon> Meals</td>
                 <td>✓<hr></td>
             </tr>
             <tr>
@@ -123,33 +111,6 @@
                 <td><a href="#">Fare rules</a><br/>&nbsp;</td>
             </tr>
         </table>
-    </div>
-    <br>
-
-    <div style="width: 639px">
-        <table width="100%">
-            <tr>
-                <td width="234px"><span>&nbsp;</span></td>
-                <td width="202px"><div class="segment-direction">GIG→FRA</div></td>
-                <td width="202px"><div class="segment-direction">FRA→AUH</div></td>
-            </tr>
-            <tr>
-                <td>⛷ Carry on</td>
-                <td>1x7kg-☎</td>
-                <td>1x7kg-☎</td>
-            </tr>
-            <tr>
-                <td>⛷ Carry on</td>
-                <td>1x7kg-☎</td>
-                <td>1x7kg-☎</td>
-            </tr>
-            <tr>
-                <td>⛷ Carry on</td>
-                <td>1x7kg-☎</td>
-                <td>1x7kg-☎</td>
-            </tr>
-        </table>
-
     </div>
 </div>
 
